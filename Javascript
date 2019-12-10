@@ -1,0 +1,8 @@
+var arr = [];                              
+
+for (var i = 0; i < 20; i++) {              
+  arr.push(prompt('enter 20  numbers ' + (i+1))); 
+}
+Array.min = function(arr){
+    return Math.min.apply( Math, arr );
+};
